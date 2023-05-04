@@ -3,10 +3,11 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false,
-  APP_ENDPOINT: "https://demo.appwrite.io/v1",
-  APP_PROJECT: "6062f9c2c09ce",
-  APP_COLLECTION_ID:"606621a04837c"
+  production: true,
+  APP_ENDPOINT: "http://localhost:8005/v1",
+  APP_PROJECT: "644bde6ab1da216f9fef",
+  APP_COLLECTION_ID:"644cf3384005d410c0de",
+  APP_DATABASE_ID: "644cf30fc8dc2803c515"
 };
 
 /*
